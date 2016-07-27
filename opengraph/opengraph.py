@@ -26,6 +26,10 @@ class OpenGraph(dict):
             'attr': 'property',
             'required_attrs': ['player']
         }),
+        ('twitter', {
+            'attr': 'name',
+            'required_attrs': ['player']
+        }),
         ('og', {
             'attr': 'property',
             'required_attrs': ['title', 'type', 'image', 'url']
